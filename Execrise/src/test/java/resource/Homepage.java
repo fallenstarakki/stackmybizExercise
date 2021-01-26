@@ -32,7 +32,7 @@ public class Homepage extends base {
 		ap.getEmail().sendKeys(Email);
 		ap.getFile().sendKeys(File);
 		ap.getJobMessage().sendKeys(jobmessage);
-		//ap.getsubmit().click();
+		ap.getsubmit().click();
 		
 	}
 	
