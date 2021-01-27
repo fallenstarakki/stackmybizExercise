@@ -33,6 +33,11 @@ public class Homepage extends base {
 		ap.getFile().sendKeys(File);
 		ap.getJobMessage().sendKeys(jobmessage);
 		ap.getsubmit().click();
+			 Alert alert = driver.switchTo().alert();		
+	        String alertMessage= driver.switchTo().alert().getText();		
+	        		
+	        // Displaying alert message		
+	        System.out.println(alertMessage);
 		
 	}
 	
