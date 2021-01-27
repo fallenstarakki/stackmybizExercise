@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 
 public class ApplicationPage {
 	public WebDriver driver;
-	By Name=By.cssSelector("[id=job-name]");
-	By Email=By.cssSelector("[id=job-email]");
-	By File=By.cssSelector("[id=job-file]");
-	By JobMessage=By.cssSelector("[id=job-message]");
-	By Submit=By.cssSelector("[type=submit]");
+	private By Name=By.cssSelector("[id=job-name]");
+	private By Email=By.cssSelector("[id=job-email]");
+	private By File=By.cssSelector("[id=job-file]");
+	private By JobMessage=By.cssSelector("[id=job-message]");
+	private By Submit=By.cssSelector("[type=submit]");
 	
 	public ApplicationPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
