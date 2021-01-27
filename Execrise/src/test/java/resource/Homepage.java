@@ -48,13 +48,13 @@ public class Homepage extends base {
 		//0th row
 		data[0][0]="Akash Kumar";
 		data[0][1]="akash22031997@gmail.com";
-		data[0][2]="F:\\selenium project\\e2e framework\\execrise2\\uploadfile\\resume .doc";
+		data[0][2]=(System.getProperty("user.dir")+"\\uploadfile\\resume .doc");
 		data[0][3]="I believe the skillset & experience I possess not only shall bring value to your organization, but in turn shall also help me to acquire experience & sharpen my skills amidst your organization’s professional work culture.
 If given an opportunity I positively look forward to give my best to your organization.";
 		//1st row
 		data[1][0]="Akash Kumar";
 		data[1][1]="akash22031997@gmail.com";
-		data[1][2]= "F:\\selenium project\\e2e framework\\execrise2\\uploadfile\\Resume .pdf";
+		data[1][2]= (System.getProperty("user.dir")+"\\uploadfile\\Resume .pdf");
 		data[1][3]="The job opening at your organization suits my skills aptly & a career opportunity at your reputed firm is no less than a dream come true.
 I believe the pioneer standards set by your firm & ethical practices within the office environment leaves me in no doubt that your firm shall not only develop my skills but also encourage me to step up to grow professionally & personally.";
 		return data;	
